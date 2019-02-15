@@ -1,3 +1,110 @@
-= travis was here. YupYupYupAhuhAhuh
+// = heading1
+// == heading2
+//
+//
+//
 
-I made these changes right here.
+= Lesson Name
+
+== Facilitation
+
+Students will be able to:
+
+* Do stuff
+* Do more stuff
+
+== Big Idea
+
+Students will ...
+
+== Key Points
+
+* Do
+* The
+* Thing
+
+== Guiding Questions
+
+* Who
+* Why
+* What 
+* How
+* Where
+
+== Implementation Guidelines
+
+* Students must be familiar with The Design Recipe for this activity.
+
+== Standards
+[@standards]
+|===
+//header
+| Math Standards
+| CS Standards
+
+// Math Standards below here
+|
+* http://www.corestandards.org/Math/Practice/MP1[CCSS.MATH.PRACTICE.MP1] - Make sense of problems and persevere in solving them.
+
+* http://www.corestandards.org/Math/Practice/MP2[CCSS.MATH.PRACTICE.MP2] - Reason abstractly and quantitatively.
+
+* http://www.corestandards.org/Math/Practice/MP6[CCSS.MATH.PRACTICE.MP6] - Attend to precision.
+
+// CS Standards below here
+| * _standard_
+|===
+
+== Sample Lesson Outline
+
+[@lesson]
+|===
+
+//header
+
+| Activity
+| Time
+| Description
+| Materials
+
+//row
+
+| *Launch*
+| 5 m
+| _Launch activity here_
+| _Resources here_
+
+//row
+
+| *Explore*
+| 10 m
+| _Task here_
+| _Resources here_
+
+//row
+
+| *Discuss*
+| 5 m
+| _Questions here_
+| _Resources here_
+
+//row
+
+| *Practice*
+| 10m
+| _Task here_ 
+| _Resources here_
+
+//row 
+
+| *Create/Apply*
+| 10m
+| _Task here_
+| _Resources here_
+
+//row
+
+| *Connection Activities*
+|
+| _Activities here_
+| _Links here_
+|===
