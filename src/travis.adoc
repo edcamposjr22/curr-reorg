@@ -1,8 +1,13 @@
 // = heading1
 // == heading2
-//
-//
-//
+// *make bold*
+// _make italics_
+// * bullet points
+// [@standards ] [@lesson] 
+// @vocab{travis-ty}
+// | === begin table or end table
+// | table cell
+// www.bootstrapworld.org[TEXT]
 
 = Lesson Name
 
