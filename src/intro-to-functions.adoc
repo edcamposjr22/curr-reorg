@@ -35,9 +35,9 @@
 |Key Points for the Facilitator
 |
 * There are 3 parts to the Design Recipe structure that students need to become comfortable using; 
-The Contract
-The Examples
-The Definition.
+**The Contract
+**The Examples
+**The Definition.
 * When writing out Examples & selecting sample inputs, have students reference the Domain & Range in the Contract. 
 * After writing 2 examples & before the Definition is written, it’s very important to have students look at their examples to circle and label what is changing.
 Emphasizing the circle & label step directly aids in writing the Definition because they can just bring down all the code and replace the sample inputs with the label for their variable name.
