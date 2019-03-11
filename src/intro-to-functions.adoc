@@ -11,9 +11,9 @@
 
 
 //start of new stuff
-= Advanced Image Composition
+= Intro to Functions
 
-*Students...*
+*Students will learn to write functions in Racket using The Design Recipe*
 
 
 [.left-header,cols=“20a,80a”, stripes=none]
@@ -21,21 +21,37 @@
 |Lesson Goals
 |Students will be able to:
 
-* Goal 1
-* Goal 2
+* Understand The Design Recipe process of writing functions(and using it to break down word problems).
+* Write the contract using & domain and range.
 
 |Student-Facing Lesson Goals
 |
-* I can...
-* I can...
+* I can describe the domain and range of a function.
+* I can write the contract and the purpose statement for a function.
+* I can write 2 examples for a function given a contract.
+* I can define a function based on what changes and what stays the same, given 2 examples of what the function does. 
+* I can give my function appropriate variable names.
 
 |Key Points for the Facilitator
 |
-* Key points
+* There are 3 parts to the Design Recipe structure that students need to become comfortable using; 
+The Contract
+The Examples
+The Definition.
+* When writing out Examples & selecting sample inputs, have students reference the Domain & Range in the Contract. 
+* After writing 2 examples & before the Definition is written, it’s very important to have students look at their examples to circle and label what is changing.
+Emphasizing the circle & label step directly aids in writing the Definition because they can just bring down all the code and replace the sample inputs with the label for their variable name.
 
 |Prerequisites
 |
-* Students should be familiar with Circles of Evaluation.
+* Students must be familiar with image functions and arithmetic to complete this activity.
+* Students must be familiar with defining and using variables to complete this lesson.
+
+|Implementation Guidelines
+|
+* Students must be familiar with image functions and arithmetic to complete this activity
+* Students must be familiar with defining and using variables to complete this lesson
+
 
 |Materials
 |
@@ -46,8 +62,11 @@
 |===
 |Math Standards (CCSS)
 |
-* http://www.corestandards.org/Math/Practice/MP2[CCSS.MATH.PRACTICE.MP2],
-Reason abstractly and quantitatively.
+* http://www.corestandards.org/Math/Practice/MP1[CCSS.MATH.PRACTICE.MP1] - Make sense of problems and persevere in solving them.
+
+* http://www.corestandards.org/Math/Practice/MP2[CCSS.MATH.PRACTICE.MP2] - Reason abstractly and quantitatively.
+
+* http://www.corestandards.org/Math/Practice/MP6[CCSS.MATH.PRACTICE.MP6] - Attend to precision.
 
 
 |CS Standards (CSTA)
@@ -60,180 +79,83 @@ Reason abstractly and quantitatively.
 
 Students should have their computer, contracts page, and pencil.
 
-== Launch: (10 min)
+== Launch: I love Green Triangles! (5 mins)
+
+Start off by telling students how much you love green triangles. Big Triangles, small Triangles, medium-sized Triangles, you love them all! 
+
+In the Definitions window, have students create as many different sized triangles as they can 2 minutes. 
 
 [.notice-box]Notice and Wonder
+Ask students to take a minute to see what they notice about the lines of code.
+Discuss as a group.
+Ask students to take a minute to see what they wonder about the lines of code.
+Share and discuss again.
 
-Launch task
+== Discuss: (2 mins)
+*What stayed the same and what changed in all the triangle lines of code?
+*Do you think there might be a shortcut?
+
 
 == Explore: (10 min)
 
-Explore task
+In partners, Have students open the “Green Triangle” file and read the commented instructions in the Interactions window. 
+
+Have students explore the following functions by testing them out in the Interactions window:
+*gt
+*green-triangle
+*red-star
+*rs
+
 
 [.strategy-box]
 .Strategies for English Language Learners
-****
-MLR
+****MLR 6 - 3 Reads: 
+*1st Read - Read the Word Problem to them without showing it to them and have them discuss what the problem is about and a possible strategy.
+*2nd Read: In Pairs, have student A read the problem and then they discuss what functions they might be using to solve this problem.
+*3rd Read: Student B reads the problem and then they come up with a good purpose statement.
+
 ****
 
 == Discuss: (10 min)
 
-* Discussion questions
+Introduce the Design Recipe as a way to write functions in order to take shortcuts when ther are repetitive tasks(connect to MP Look for and Make Use of Structure & MP8: Look for and Express Regularity in Repeated Reasoning?).
+
+As you introducing the different parts of The Design Recipe, here are some questions to ask:
+*What is the Contract for the ‘triangle’ function? Domain/Range?
+*What should the Contract for ‘green-triangle’ or ‘gt’? Domain/Range?
+*Can you model the examples using the Circles of Evaluation?
+
+
 
 == Practice: (10 min)
 
-Practice task
+Practice the Design Recipe
 
-[.physics-table,width=“50%“,cols=“5a,5a”,options=“header”]
-|===
-|x-variable
-|y-variable
+*Write bc, which takes a size and makes a blue circle of the given size
+*What other functions can you write that produce geometric shapes and can be configured with a variable?
 
-|
-|
-
-|
-|
-
-|
-|
-
-|
-|
-
-|
-|
-
-|
-|
-|===
 
 == Create/Apply: (5 min)
 
-Create/Apply task
+Have students use The Design Recipe to write a function that:
+*Has a function name that conveys the function purpose to other users: Examples, blue-circle, bc, green-triangle, or gt, etc..
+*Takes in a number as the input
+*Produces a shape of their choosing that is:
+*Either “solid” or “outline” - Their choice
+*A a color of their choosing
 
-
-//end of new stuff
-
-= Intro to Functions
-
-== Facilitation
-
-Students will be able to:
-
-* Write examples for functions
-* Write functions using the Design Recipe
-* Trouble shoot their errors
-
-== Big Idea
-
-Students will be able to write functions in Racket using the design recipe.
-
-== Key Points
-
-* Students understand function design in terms of contracts
-* Students learn how to write examples for functions
-* Students learn how to go from examples to the function abstraction
-
-== Guiding Questions
-
-* How can we save time when we have to do a repetitive task?
-* When using the Design Recipe; What changes? What stays the same?
-
-
-== Implementation Guidelines
-
-* Students must be familiar with image functions and arithmetic to complete this activity
-* Students must be familiar with defining and using variables to complete this lesson
-
-
-== Standards
-[@standards]
-|===
-//header
-| Math Standards
-| CS Standards
-
-// Math Standards below here
-|
-* http://www.corestandards.org/Math/Practice/MP1[CCSS.MATH.PRACTICE.MP1] - Make sense of problems and persevere in solving them.
-
-* http://www.corestandards.org/Math/Practice/MP2[CCSS.MATH.PRACTICE.MP2] - Reason abstractly and quantitatively.
-
-* http://www.corestandards.org/Math/Practice/MP6[CCSS.MATH.PRACTICE.MP6] - Attend to precision.
-
-// CS Standards below here
-| * _standard_
-|===
-
-== Sample Lesson Outline
-
-[@lesson]
-|===
-
-//header
-
-| Activity
-| Time
-| Description
-| Materials
-
-//row
-
-| *Launch*
-| 5 m
-| I love green triangles
-| 
-
-//row
-
-| *Discuss*
-| 15 m
-| Working through the design recipe. What do you Notice? What do you Wonder?
-
-| https://www.youtube.com/watch?v=ZWdLNtPu6PQ[Using The Design Recipe to Solve Word Problems]
-
-//row
-
-| *Discuss*
-| 10 m
-| * What numbers did you try and what happened? Ex: (gt 50)
-  * What errors did you run into?
-  * How did you work through them?
-
-| 
-
-//row
-
-| *Practice*
-| 18m
-| Practice the Design Recipe 
-| 
-
-//row 
-
-| *Create/Apply*
-| 10m
-| Write bc, which takes a size and makes a blue circle of the given size
-  What other functions can you write that produce geometric shapes and can be configured with a variable?
 
 | https://docs.google.com/document/d/1pm1YfhXn5NNwWy6aLDvIjyZr97HRmUNzCIhMfiLSxOI/edit[Blank DR Worksheet]
 
-//row
 | *Review*
 | 
 | *Matching Examples and Function Definitions[https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit3/exercises/Defining-Functions/match-examples-functions1.html[original] | https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/resources/teachers/protected/solutions/match-examples-functions1.html[answers]]
   *Creating Contracts From Examples (1)[https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit3/exercises/Defining-Functions/create-contracts-examples1.html[original] | https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/resources/teachers/protected/solutions/create-contracts-examples1.html[answers]]
   *Creating Contracts From Examples (2)[https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/units/unit3/exercises/Defining-Functions/create-contracts-examples2.html[original] | https://www.bootstrapworld.org/materials/fall2018/courses/algebra/en-us/resources/teachers/protected/solutions/create-contracts-examples2.html[answers]]
 
-//row
 
 | *Connection Activities*
 |
 | 
 | 
 |===
-
-
-
-//End of old stuff
